@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -17,13 +16,13 @@ button {
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Labrada', serif;
 }
 
 body {
   min-height: 100vh;
-  background-color: #333;
-  color: #fff;
+  background-color: #D14D72;
+  color: #FEF2F4;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -39,7 +38,7 @@ main {
 }
 
 section {
-  border: 1px solid whitesmoke;
+  border: 3px solid #210062;
   border-radius: 10px;
   padding: 0.5rem;
 }
@@ -69,7 +68,7 @@ section {
 .newItemEntry__input {
   width: calc(100% - (0.25rem + 48px));
   flex-grow: 1;
-  border: 2px solid whitesmoke;
+  border: 2px solid #210062;
   border-radius: 10px;
   padding: 0.5em;
 }
@@ -77,13 +76,13 @@ section {
 .newItemEntry__button {
   background-color: transparent;
   color: whitesmoke;
-  border: 3px dashed whitesmoke;
+  border: 3px dashed #210062;
   padding: 0.75em;
 }
 
 .newItemEntry__button:hover,
 .newItemEntry__button:focus {
-  color: limegreen;
+  color: lightskyblue;
 }
 
 .listContainer {
@@ -102,10 +101,17 @@ section {
 
 .listTitle__button {
   background-color: transparent;
-  color: whitesmoke;
+  color: #210062;
   padding: 0.25em;
 }
 
+#listName {
+  color: #210062;
+}
+
+hr {
+  color: lightskyblue;
+}
 
 .listItems {
   flex-grow: 1;
@@ -119,6 +125,7 @@ section {
   align-items: center;
   padding-top: 1em;
   gap: 1em;
+  color: #210062;
 }
 
 .item>input[type="checkbox"] {
